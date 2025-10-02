@@ -63,27 +63,24 @@ jupyter notebook
 
 ---
 
-## Results (examples)
+## Results
 
-Export plots from the notebook to `results/` and reference them here:
-
-- Confusion matrix – `results/confusion_matrix.png`  
-- ROC curve – `results/roc_curve.png`  
-- SHAP summary – `results/shap_summary.png`  
-- LIME explanation – `results/lime_example.png`
-
-```html
+### Confusion Matrix
 <p align="center">
-  <img src="results/roc_curve.png" width="420">
-  <img src="results/confusion_matrix.png" width="420">
+  <img src="results/confusion_matrix.png" width="500"/>
 </p>
-<p align="center">
-  <img src="results/shap_summary.png" width="420">
-  <img src="results/lime_example.png" width="420">
-</p>
-```
 
-*(Images will display once you add them to the `results/` folder.)*
+### ROC Curve
+<p align="center">
+  <img src="results/roc_curve.png" width="500"/>
+</p>
+
+### Explainability
+<p align="center">
+  <img src="results/shap_summary.png" width="420"/>
+  <img src="results/lime_example.png" width="420"/>
+</p>
+
 
 ---
 
